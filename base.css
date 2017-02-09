@@ -1,2 +1,9 @@
 :root {
+	--topbar-color: #e9ebef;
+	--sidebar-color: #143d65;
+	--background-color: #808080;
+}
+
+.navbar {
+	background-color: var(--topbar-color);
 }
