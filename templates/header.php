@@ -27,6 +27,7 @@ define("SITE_URL", "http://" . $_SERVER['SERVER_NAME']);
 		<div class="container">
 			<!-- Brand and toggle get grouped for better mobile display -->
 			<div class="navbar-header">
+				<div class="brand">Elizabeth Tarr, LCSW</div>
 				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-1">
 					<span class="sr-only">Toggle navigation</span>
 					<span class="icon-bar"></span>
