@@ -1,3 +1,9 @@
+<?php
+$page_infos = json_decode(file_get_contents("pages_info.json"), true);
+define("SITE_URL", "http://" . $_SERVER['SERVER_NAME']);
+
+?>
+
 <!DOCTYPE html>
 
 <html lang="en">
@@ -31,6 +37,11 @@
 			<!-- Collect the nav links, forms, and other content for toggling -->
 			<div class="collapse navbar-collapse" id="navbar-collapse-1">
 				<ul class="nav navbar-nav">
+					<?php
+					foreach($page_infos as $page){
+						echo "<li><a href=\"" . SITE_URL . "/" . $page['url'] . "\">" . $page['sidebar'] . "</a></li>";
+					}
+					?>
 					<li>
 						<a href="./contactinfo.html"></a>
 					</li>
