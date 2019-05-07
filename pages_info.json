@@ -4,6 +4,7 @@
 		"image": "oak.png",
 		"image_cred": "Grace Diller",
 		"title": "Home",
+		"navbar": "Home",
 		"content": "home.php"
 	},
 	{
@@ -11,6 +12,7 @@
 		"image": "wave.jpg",
 		"image_cred": "Birdie Hunter",
 		"title": "Why Therapy?",
+		"navbar": "Why Therapy?",
 		"content": "why_therapy.php"
 	},
 	{
@@ -18,6 +20,7 @@
 		"image": "wave2.jpg",
 		"image_cred": "Birdie Hunter",
 		"title": "Services Provided",
+		"navbar": "Services",
 		"content": "services.php"
 	},
 	{
@@ -25,6 +28,7 @@
 		"image": "sunbeams.jpg",
 		"image_cred": "Birdie Hunter",
 		"title": "What to Expect",
+		"navbar": "Expectations",
 		"content": "what_to_expect.php"
 	},
 	{
@@ -32,6 +36,7 @@
 		"image": "sitting.jpg",
 		"image_cred": "Birdie Hunter",
 		"title": "Experience",
+		"navbar": "Experience",
 		"content": "experience.php"
 	},
 	{
@@ -39,6 +44,7 @@
 		"image": "sunset.jpg",
 		"image_cred": "Birdie Hunter",
 		"title": "Fees",
+		"navbar": "Fees",
 		"content": "fees.php"
 	}
 ]

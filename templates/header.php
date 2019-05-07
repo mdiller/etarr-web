@@ -29,7 +29,7 @@ define("SITE_URL", "http://" . $_SERVER['SERVER_NAME']);
 							echo "<li>&#8226;</li>";
 						}
 						$first = false;
-						echo "<li><a href=\"#" . $page['url'] . "\">" . $page['title'] . "</a></li>";
+						echo "<li><a href=\"#" . $page['url'] . "\">" . $page['navbar'] . "</a></li>";
 
 					}
 					?>
@@ -41,6 +41,3 @@ define("SITE_URL", "http://" . $_SERVER['SERVER_NAME']);
 		</div>
 		<!-- /.navbar-collapse -->
 	</nav>
-
-	<!-- Page Content -->
-	<div id="content">

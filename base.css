@@ -1,8 +1,9 @@
 :root {
 	--topbar-color: #333333;
-	--highlight-color: rgb(2, 204, 178);
-	--text-color: rgb(85, 85, 85);
+	--highlight-color: #02ccb2;
+	--text-color: #555555;
 	--background-color: #f8f8f8;
+	--content-size: 70%;
 	--header-size: 70px;
 }
 
@@ -22,7 +23,7 @@ html, body {
 	background-color: var(--topbar-color);
 	height: var(--header-size);
 	width: 100%;
-	color: rgb(187, 187, 187);
+	color: #bbbbbb;
 }
 
 .navbar ul {
@@ -40,7 +41,7 @@ html, body {
 }
 
 .navbar > div {
-	max-width: 1000px;
+	max-width: var(--content-size);
 	margin: auto;
 }
 
@@ -51,29 +52,68 @@ html, body {
 
 .navdiv li a {
 	display: block;
-	color: rgb(187, 187, 187);
+	color: #bbbbbb;
 	text-decoration: none;
+}
+
+.navdiv li:nth-child(even) {
+	color: #666666;
 }
 
 .navdiv a:hover {
 	color: var(--highlight-color);
 }
 
-h2 {
-	padding-top: 50px;
-	margin-top: 0px;
-	margin-bottom: 20px;
+#title {
 	position: relative;
+}
+
+#title > div {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	color: #666666;
+	text-align: center;
+	font-size: 18px;
+	font-weight: 700;
+}
+
+#title h1 {
+	color: var(--highlight-color);
+	font-size: 48px;
+	font-weight: 800;
+	margin: 0px;
+}
+
+#title img {
+	object-fit: cover;
+	width: 100%;
+}
+
+h2 {
+	position: absolute;
 	display: inline-block;
+	top: 65px;
 	left: 50%;
 	transform: translate(-50%, 0);
 	line-height: 50px;
 	border-bottom: 4px solid var(--highlight-color);
 }
 
+.section {
+	position: relative;
+	padding-top: 150px;
+}
+
 #content {
 	position: relative;
-	max-width: 1000px;
+	max-width: var(--content-size);
 	margin: auto;
-	margin-top: var(--header-size);
+}
+
+#faceimg {
+	width: 232px;
+	margin-right: 15px;
+	margin-bottom: 15px;
 }

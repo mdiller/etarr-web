@@ -1,5 +1,3 @@
-	</div>
-	<!-- /.container -->
 </body>
 
 </html>

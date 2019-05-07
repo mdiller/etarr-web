@@ -1,4 +1,6 @@
+
 <p>
+	<img id="faceimg" align="left" src="images/face.jpg" />
 So you're considering therapy.  Perhaps I can answer some questions and ease your way through this decision.
 </p>
 <p>
