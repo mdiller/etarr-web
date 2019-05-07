@@ -1,5 +1,3 @@
-<h1>Why Therapy?</h1>
-
 <p>I know how difficult this process can be. I will do my best to help you navigate the experience.</p>
 
 <ul>

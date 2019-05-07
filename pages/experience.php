@@ -1,5 +1,3 @@
-<h1>Education and Experience</h1>
-
 <p>Elizabeth Tarr has over 30 years of experience providing diagnosis, counseling, coaching and psychotherapy for individuals, couples and families.</p>
 
 <p>She graduated with a master's degree in clinical social work from the University of California at Berkeley in 1986.  She worked in the public sector for a number of years serving high need populations. </p>

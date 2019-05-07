@@ -1,5 +1,3 @@
-<h1>Fees and Insurance</h1>
-
 <p>Rate:</p>
 <p>
 $125 initial assessment.<br>

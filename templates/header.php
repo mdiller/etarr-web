@@ -12,35 +12,25 @@ define("SITE_URL", "http://" . $_SERVER['SERVER_NAME']);
 <head>
 	<title>Elizabeth Tarr</title>
 
-
-	<!-- Bootstrap Core CSS -->
-	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
 	<!-- Custom CSS -->
 	<link href="base.css" rel="stylesheet">
-	<!-- Bootstrap Core JavaScript -->
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 
 <body>
 	<!-- Navigation -->
-	<nav class="navbar navbar-inverse navbar-static-top" role="navigation">
-		<div class="container">
-			<!-- Brand and toggle get grouped for better mobile display -->
-			<div class="navbar-header">
-				<div class="brand">Elizabeth Tarr, LCSW</div>
-				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-1">
-					<span class="sr-only">Toggle navigation</span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				</button>
-			</div>
-			<!-- Collect the nav links, forms, and other content for toggling -->
-			<div class="collapse navbar-collapse" id="navbar-collapse-1">
-				<ul class="nav navbar-nav">
+	<nav class="navbar" role="navigation">
+		<div>
+			<div class="navdiv">
+				<ul>
 					<?php
+					$first = true;
 					foreach($page_infos as $page){
-						echo "<li><a href=\"" . SITE_URL . "/" . $page['url'] . "\">" . $page['sidebar'] . "</a></li>";
+						if (!$first) {
+							echo "<li>&#8226;</li>";
+						}
+						$first = false;
+						echo "<li><a href=\"#" . $page['url'] . "\">" . $page['title'] . "</a></li>";
+
 					}
 					?>
 					<li>
@@ -48,10 +38,9 @@ define("SITE_URL", "http://" . $_SERVER['SERVER_NAME']);
 					</li>
 				</ul>
 			</div>
-			<!-- /.navbar-collapse -->
 		</div>
-		<!-- /.container -->
+		<!-- /.navbar-collapse -->
 	</nav>
 
 	<!-- Page Content -->
-	<div class="container">
+	<div id="content">

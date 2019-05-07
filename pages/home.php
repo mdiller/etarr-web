@@ -1,5 +1,3 @@
-<h1>Welcome</h1>
-
 <p>
 So you're considering therapy.  Perhaps I can answer some questions and ease your way through this decision.
 </p>
