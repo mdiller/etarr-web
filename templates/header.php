@@ -11,14 +11,21 @@ define("SITE_URL", "http://" . $_SERVER['SERVER_NAME']);
 
 <head>
 	<title>Elizabeth Tarr</title>
-
-	<!-- Custom CSS -->
-	<link href="base.css" rel="stylesheet">
 </head>
+
+
+<style>
+<?php include "base.css"; ?>
+</style>
+
+<script>
+<?php include "script.js"; ?>
+</script>
 
 <body>
 	<!-- Navigation -->
-	<nav class="navbar" role="navigation">
+	<nav id="navbar" class="navbar" role="navigation">
+		<span class="navbutton" class="icon" onclick="navbutton()"></span>
 		<div>
 			<div class="navdiv">
 				<ul>
@@ -29,8 +36,7 @@ define("SITE_URL", "http://" . $_SERVER['SERVER_NAME']);
 							echo "<li>&#8226;</li>";
 						}
 						$first = false;
-						echo "<li><a href=\"#" . $page['url'] . "\">" . $page['navbar'] . "</a></li>";
-
+						echo "<li><a onclick=\"navigated()\" href=\"#" . $page['url'] . "\"><span>" . $page['navbar'] . "</span></a></li>";
 					}
 					?>
 					<li>

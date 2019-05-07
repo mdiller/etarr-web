@@ -1,14 +1,9 @@
 <?php
 include "templates/header.php";
 
-// $page_url = "";
-// if(isset($_GET['page'])) {
-// 	$page_url = $_GET['page'];
-// }
-// echo "<img src=\"images/" . $page_info['image'] . "\">";
 ?>
 <div id="title">
-	<img src="<?php echo "images/hiker.jpg" . "\""; ?>">
+	<img src="<?php echo "images/hiker.jpg"; ?>">
 	<div>
 		<h1>Elizabeth Tarr, LCSW</h1>
 		Psychotherapy, Counseling and Coaching

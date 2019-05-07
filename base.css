@@ -5,6 +5,12 @@
 	--background-color: #f8f8f8;
 	--content-size: 70%;
 	--header-size: 70px;
+	--navbutton-size: 50px;
+	--navbutton-padding: calc((var(--header-size) - var(--navbutton-size)) / 2);
+}
+
+* {
+	box-sizing: border-box;
 }
 
 html, body {
@@ -12,17 +18,18 @@ html, body {
 	background-color: var(--background-color);
 	color: var(--text-color);
 	height: 100%;
-	box-sizing: border-box;
+	width: 100%;
 	margin: 0px;
 }
 
 .navbar {
 	position: fixed;
 	top: 0;
+	left: 0;
+	right: 0;
 	z-index: 100;
 	background-color: var(--topbar-color);
 	height: var(--header-size);
-	width: 100%;
 	color: #bbbbbb;
 }
 
@@ -33,11 +40,17 @@ html, body {
 }
 
 .navbar li {
+	position: relative;
 	display: inline-block;
 	height: 100%;
 	padding: 0px 8px;
 	line-height: var(--header-size);
 	font-weight: 700;
+}
+
+.navdiv span {
+	width: 100%;
+	height: 100%;
 }
 
 .navbar > div {
@@ -46,8 +59,10 @@ html, body {
 }
 
 .navdiv {
+	background-color: var(--topbar-color);
 	display: table;
 	float: right;
+	white-space: nowrap;
 }
 
 .navdiv li a {
@@ -62,6 +77,18 @@ html, body {
 
 .navdiv a:hover {
 	color: var(--highlight-color);
+	height: 100%;
+}
+
+.navbutton {
+	display: none;
+	width: var(--navbutton-size);
+	height: var(--navbutton-size);
+	position: absolute;
+	right: var(--navbutton-padding);
+	top: var(--navbutton-padding);
+	background-color: var(--highlight-color);
+	cursor: pointer;
 }
 
 #title {
@@ -70,13 +97,13 @@ html, body {
 
 #title > div {
 	position: absolute;
-	left: 50%;
 	top: 50%;
-	transform: translate(-50%, -50%);
+	transform: translate(0, -50%);
 	color: #666666;
 	text-align: center;
 	font-size: 18px;
 	font-weight: 700;
+	width: 100%;
 }
 
 #title h1 {
@@ -99,6 +126,7 @@ h2 {
 	transform: translate(-50%, 0);
 	line-height: 50px;
 	border-bottom: 4px solid var(--highlight-color);
+	white-space: nowrap;
 }
 
 .section {
@@ -116,4 +144,47 @@ h2 {
 	width: 232px;
 	margin-right: 15px;
 	margin-bottom: 15px;
+}
+
+
+@media only screen and (max-width: 768px) {
+	.navdiv li:nth-child(even) {
+		display: none;
+	}
+	.navbutton {
+		display: inline-block;
+	}
+	.navbar > div {
+		max-width: none;
+		width: 100vw;
+	}
+	.navdiv {
+		display: none;
+		position: absolute;
+		width: 100%;
+		top: 70px;
+	}
+	.navdiv li {
+		display: list-item;
+		text-align: right;
+		line-height: normal;
+	}
+	.navdiv span {
+		padding: 15px;
+		display: block;
+	}
+	.expanded .navdiv {
+		display: table;
+	}
+	#title div {
+		font-size: 2.5vw;
+	}
+	#title h1 {
+		font-size: 6vw;
+	}
+	#content {
+		padding: 20px;
+		max-width: none;
+		width: 100%;
+	}
 }
