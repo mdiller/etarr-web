@@ -1,23 +1,18 @@
-<p>Rate:</p>
-<p>
-$125 initial assessment.<br>
-$110 per 55 min session.
-</p>
+<p>Services are billed on at hourly rate. </p>
 
+<p>Initial evaluation (55min)  $150.00</p>
 
-<p>Payment by cash or check.</p>
-<p>Insurance:</p>
+<p>Psychotherapy 	(55min)  $140,00</p>
 
-<p>Services may be covered through your health insurance plan.  Below I've listed some questions that might be helpful when you call your insurance plan to clarify benefits.</p>
-<ul>
-	<li>Do I have outpatient mental health benefits?</li>
-	<li>What are my outpatient mental health benefits?</li>
-	<li>What is the difference between in network and out of network provider benefits?</li>
-	<li>Is Elizabeth Tarr a network provider?</li>
-	<li>Do I need any preauthorization before I utilize services?</li>
-	<li>What is my annual deductible and has it been met?</li>
-</ul>
+<p>Private pay psychotherapy (55min)  $120.00</p>
 
-<p>Cancellation Policy:</p>
+<p>Insurance: Psychotherapy may be covered by your medical insurance if it is deemed “medically necessary.”  What this means is that if you are evaluated and meet the criteria for a mental health diagnosis (ie: Anxiety, Depression) your psychotherapy is considered treatment and therefore covered by your medical insurance.  I will complete this evaluation which will involve a clinical diagnosis.  I will bill your medical insurance directly.  You will be responsible for co-pay and deductible payments.  I am in network with the following insurance companies: BCBS, Moda, Cigna, Pacific Source, Aetna, Medicare, First Choice.  All other insurers would be billed as out of network.</p>
 
-<p>I reserve your appointment time just for you.  If for some reason you need to cancel or reschedule an appointment, please insure I have 24 hours notice.  Appointments cancelled without 24 hours notice will be charged a $50 cancellation fee.</p>
+<p>HSA (Health Savings Accounts): Often with high deductible medical insurance plans you may have an HSA.  I encourage you to take some time to understand the benefits of this type of plan. (add link) (www:hsacenter.com/what-is-an-hsa/qualified-medical-expenses/).  These accounts can be used to pay for qualified medical expenses including some not covered by your medical insurance. They can be used for co-pay, deductible or out of network expenses. They can also be used for services that are necessary to prevent a mental illness if provided by a mental health professional.  This might include a level of distress or disturbance that does not meet the criteria for a medical insurance eligible diagnosis but should be addressed to alleviate the problem and not further compromise your mental health. </p>
+
+<p>Private Pay: If you are seeking assistance and are not impaired by a mental health condition you will be paying privately. These types of situations might include: parenting support, career development or life transitions with limited symptoms or pre-marital counseling.  </p>
+
+<p>Couple’s Counseling: If you are seeking couple’s counseling it likely not appropriate to bill your medical insurance.  These services may be eligible  HSA expenses.  If one or both individuals in the couple have a level of distress and disturbance a mental health professional may consider therapy necessary to prevent a mental health illness and would therefore qualify for an eligible HSA expense.</p>
+
+<p>I accept cash and checks, but no credit cards. </p>
+
