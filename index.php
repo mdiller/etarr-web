@@ -2,6 +2,7 @@
 include "templates/header.php";
 
 ?>
+<div id="page">
 <div id="title">
 	<img src="<?php echo "images/hiker.jpg"; ?>">
 	<div>
@@ -28,4 +29,5 @@ foreach($page_infos as $page) {
 
 include "templates/footer.php";
 ?>
+</div>
 </div>

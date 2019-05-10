@@ -14,12 +14,16 @@
 }
 
 html, body {
-	font-family: open sans, Arial, Helvetica, sans-serif;
+	font-family: Open Sans, Source Sans Pro, Lato, Roboto, Arial, Helvetica, sans-serif;
 	background-color: var(--background-color);
 	color: var(--text-color);
 	height: 100%;
 	width: 100%;
 	margin: 0px;
+}
+
+#page {
+	padding-top: var(--header-size);
 }
 
 .navbar {
@@ -121,12 +125,13 @@ html, body {
 h2 {
 	position: absolute;
 	display: inline-block;
-	top: 65px;
+	top: 85px;
 	left: 50%;
 	transform: translate(-50%, 0);
 	line-height: 50px;
 	border-bottom: 4px solid var(--highlight-color);
 	white-space: nowrap;
+	margin: 0;
 }
 
 .section {
@@ -138,9 +143,19 @@ h2 {
 	position: relative;
 	max-width: var(--content-size);
 	margin: auto;
+	padding-top: 60px;
+}
+
+#content > div:first-child {
+	padding-top: 75px;
+}
+
+#content > div:first-child h2 {
+	top: 10px;
 }
 
 #faceimg {
+	float: left;
 	width: 232px;
 	margin-right: 15px;
 	margin-bottom: 15px;
@@ -186,5 +201,10 @@ h2 {
 		padding: 20px;
 		max-width: none;
 		width: 100%;
+	}
+	#faceimg {
+		float: none;
+		margin: auto;
+		display: block;
 	}
 }

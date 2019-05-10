@@ -17,6 +17,8 @@ function yearsSince($then) {
 
 <head>
 	<title>Elizabeth Tarr</title>
+
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans|Lato|Roboto|Source+Sans+Pro" rel="stylesheet"> 
 </head>
 
 
