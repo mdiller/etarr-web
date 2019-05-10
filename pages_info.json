@@ -1,50 +1,44 @@
 [
 	{
 		"url": "",
-		"image": "oak.png",
-		"image_cred": "Grace Diller",
 		"title": "Home",
 		"navbar": "Home",
 		"content": "home.php"
 	},
 	{
 		"url": "why",
-		"image": "wave.jpg",
-		"image_cred": "Birdie Hunter",
 		"title": "Why Seek Assistance?",
 		"navbar": "Why Seek Assistance?",
 		"content": "why_therapy.php"
 	},
 	{
 		"url": "services",
-		"image": "wave2.jpg",
-		"image_cred": "Birdie Hunter",
 		"title": "Services Provided",
 		"navbar": "Services",
 		"content": "services.php"
 	},
 	{
 		"url": "expectations",
-		"image": "sunbeams.jpg",
-		"image_cred": "Birdie Hunter",
 		"title": "What to Expect",
 		"navbar": "Expectations",
 		"content": "what_to_expect.php"
 	},
 	{
 		"url": "experience",
-		"image": "sitting.jpg",
-		"image_cred": "Birdie Hunter",
 		"title": "Experience",
 		"navbar": "Experience",
 		"content": "experience.php"
 	},
 	{
 		"url": "fees",
-		"image": "sunset.jpg",
-		"image_cred": "Birdie Hunter",
 		"title": "Fees",
 		"navbar": "Fees",
 		"content": "fees.php"
+	},
+	{
+		"url": "contact",
+		"title": "Contact Information",
+		"navbar": "Contact",
+		"content": "contact.php"
 	}
 ]

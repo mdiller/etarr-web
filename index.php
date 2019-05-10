@@ -27,7 +27,7 @@ foreach($page_infos as $page) {
 }
 
 
+echo "</div>";
 include "templates/footer.php";
 ?>
-</div>
 </div>

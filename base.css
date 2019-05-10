@@ -154,6 +154,15 @@ h2 {
 	top: 10px;
 }
 
+#content > div:last-child {
+	text-align: center;
+}
+
+#content > div:last-child h3 {
+	margin-top: 15px;
+	margin-bottom: 5px;
+}
+
 #faceimg {
 	float: left;
 	width: 232px;
@@ -163,6 +172,12 @@ h2 {
 
 h1, h2, #navbar {
 	font-family: Arial, Helvetica, sans-serif;
+}
+
+#footer {
+	/*background-color: var(--topbar-color);*/
+	height: 150px;
+	width: 100%;
 }
 
 @media only screen and (max-width: 768px) {
