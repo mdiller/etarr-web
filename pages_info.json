@@ -1,7 +1,7 @@
 [
 	{
 		"url": "",
-		"title": "Home",
+		"title": "Welcome",
 		"navbar": "Home",
 		"content": "home.php"
 	},

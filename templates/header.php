@@ -33,7 +33,10 @@ function yearsSince($then) {
 <body>
 	<!-- Navigation -->
 	<nav id="navbar" class="navbar" role="navigation">
-		<span class="navbutton" class="icon" onclick="navbutton()"></span>
+		<span class="navbutton" class="icon" onclick="navbutton()">
+			<div>
+			</div>
+		</span>
 		<div>
 			<div class="navdiv">
 				<ul>

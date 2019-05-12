@@ -8,3 +8,7 @@
 	<h3>Phone</h3>
 	<a href="tel://1-503-681-8041">(503)-681-8041</a>
 </p>
+<p>
+	<h3>Email & Text</h3>
+	For privacy reasons I do not communicate through email or text.
+</p>
