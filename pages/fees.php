@@ -12,7 +12,7 @@
 
 <p>Private Pay: If you are seeking assistance and are not impaired by a mental health condition you will be paying privately. These types of situations might include: parenting support, career development or life transitions with limited symptoms or pre-marital counseling.  </p>
 
-<p>Couple's Counseling: If you are seeking couple's counseling it likely not appropriate to bill your medical insurance.  These services may be eligible  HSA expenses.  If one or both individuals in the couple have a level of distress and disturbance a mental health professional may consider therapy necessary to prevent a mental health illness and would therefore qualify for an eligible HSA expense.</p>
+<p>Couple's Counseling: If you are seeking couple's counseling it is likely not appropriate to bill your medical insurance.  These services may be eligible  HSA expenses.  If one or both individuals in the couple have a level of distress and disturbance a mental health professional may consider therapy necessary to prevent a mental health illness and would therefore qualify for an eligible HSA expense.</p>
 
 <p>I accept cash, checks, and PayPal, but no credit cards. </p>
 

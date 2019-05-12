@@ -5,9 +5,7 @@ include "pages_info.php";
 define("SITE_URL", "http://" . $_SERVER['SERVER_NAME']);
 
 function yearsSince($then) {
-	$then = date('Ymd', strtotime($then));
-	$diff = date('Ymd') - $then;
-	return substr($diff, 0, -4);
+	return date("Y") - $then;
 }
 
 ?>
