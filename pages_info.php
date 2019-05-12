@@ -1,4 +1,5 @@
-array(
+<?php
+$page_infos = array(
 	array(
 		"url" => "",
 		"title" => "Welcome",
@@ -41,4 +42,5 @@ array(
 		"navbar" => "Contact",
 		"content" => "contact.php"
 	)
-)
+);
+?>

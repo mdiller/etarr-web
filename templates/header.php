@@ -1,5 +1,7 @@
 <?php
-$page_infos = json_decode(file_get_contents("pages_info.json"), true);
+// $page_infos = json_decode(file_get_contents("pages_info.json"), true);
+include "pages_info.php";
+
 define("SITE_URL", "http://" . $_SERVER['SERVER_NAME']);
 
 function yearsSince($then) {

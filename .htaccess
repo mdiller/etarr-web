@@ -1,2 +1,1 @@
-RewriteEngine On
-RewriteRule ^([a-z]*)$ index.php?page=$1 [NC,END]
+Redirect 301 /index_et.htm http://www.metratek.com/elizabeth_tarr

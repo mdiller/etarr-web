@@ -2,7 +2,7 @@
 
 <p>Initial evaluation (55min)  $150.00</p>
 
-<p>Psychotherapy 	(55min)  $140,00</p>
+<p>Psychotherapy 	(55min)  $140.00</p>
 
 <p>Private pay psychotherapy (55min)  $120.00</p>
 
