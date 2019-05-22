@@ -16,9 +16,11 @@ function yearsSince($then) {
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <head>
-	<title>Elizabeth Tarr</title>
-
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans|Lato|Roboto|Source+Sans+Pro" rel="stylesheet"> 
+	<title>Elizabeth Tarr, LCSW</title>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans|Lato|Roboto|Source+Sans+Pro" rel="stylesheet">
+	<meta property="og:title" content="Elizabeth Tarr, LCSW"/>
+	<meta property="og:image" content="http://metratek.com/elizabeth_tarr/images/face.jpg"/>
+	<meta property="og:description" content="I specialize in work with people who find themselves at a crossroads in need of focus, direction and support."/>
 </head>
 
 
